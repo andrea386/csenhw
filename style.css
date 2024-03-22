@@ -1,0 +1,79 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #99BC85; /* Updated background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0.5em;
+    background-color: #99BC85; 
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white; 
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 2px solid white;
+}
+
+section{
+    margin: 20px;
+}
+
+
+
+#home{
+    background-color: #E1F0DA;
+}
+
+#education{
+    background-color: #BFD8AF;
+}
+
+#experience{
+    background-color: #E1F0DA;
+}
+
+#contact{
+    background-color: #BFD8AF;
+}
+
+form{
+    background-color: #E1F0DA;
+    padding: 20px;
+}
+
+label{
+    color: #333;
+}
+
+textarea, input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    background-color: #99BC85;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
